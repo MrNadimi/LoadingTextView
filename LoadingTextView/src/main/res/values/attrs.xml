@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for Custom text view -->
+    <declare-styleable name="LoadingTextView">
+        <attr name="ltv_animateDurationInMills" format="integer" />
+        <attr name="ltv_dotCount" format="integer" />
+        <attr name="ltv_loading" format="string" />
+    </declare-styleable>
+</resources>
