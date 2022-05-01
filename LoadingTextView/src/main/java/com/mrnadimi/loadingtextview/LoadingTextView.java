@@ -71,7 +71,6 @@ public class LoadingTextView  extends androidx.appcompat.widget.AppCompatTextVie
             @SuppressLint("SetTextI18n")
             public void onTick(long millisUntilFinished) {
                 setText(defaultText+" "+extra.toString());
-                Log.e("heree" , "   "+defaultText+" "+extra.toString());
                 extra.append(loadingText);
                 count++;
                 if (count > loadingCount){
